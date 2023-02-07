@@ -1,8 +1,3 @@
-// WHEN I view the navigation titles
-// THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-
-// Use rafce as shortcut to create React arrow export function
-
 import React from "react";
 
 const Navigation = ({ currentPage, handlePageChange }) => {

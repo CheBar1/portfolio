@@ -1,34 +1,26 @@
 import React from "react";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 
 function Project({ title, description, deployedLink, githubLink, image }) {
   return (
-    <div className="card m-3">
-      <h5 className="card-header">{title}</h5>
-
-      <div className="card-body">
-        <img src={image} className="card-img-top" alt={title} />
-      </div>
-
-      <div className="footer mx-auto mb-4">
-        <p>{description}</p>
-        <a
-          href={githubLink}
-          rel="noreferrer"
-          target="_blank"
-          className="btn btn-primary"
-        >
-          Github Link
-        </a>
-        <a
-          href={deployedLink}
-          rel="noreferrer"
-          target="_blank"
-          className="btn btn-primary"
-        >
-          Deployed Link
-        </a>
-      </div>
-    </div>
+    <Container className="mt-3">
+      <Row>
+        <Col>
+          <Card className="shadow-lg" style={{ width:"18rem" }}>
+            <Card.Header className="p-3">
+              <h4 className="center">{title}</h4>
+            </Card.Header>
+            <Card.Img src={image} />
+            <Card.Body>
+              <Card.Title>Technologies</Card.Title>
+              <Card.Text>{description}</Card.Text>
+              <Button href={githubLink} className="ml-3">Github Link</Button>
+              <Button href={deployedLink}>Deployed Link</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
