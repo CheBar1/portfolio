@@ -85,7 +85,7 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--light);
   text-decoration: none;
   font-weight: bold;
 }
@@ -348,7 +348,7 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
-}
+} 
 
 .modalBackdrop {
 	background: rgba(0, 0, 0, .65);
@@ -370,11 +370,11 @@ textarea {
 	width: 960px;
 }
 
-.modalTitle {
+ .modalTitle {
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 25px;
-}
+} 
 
 button {
 	background: var(--primary);
@@ -390,13 +390,13 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--light);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
 	
-}
+} 
 
 .navActive {
   color: var(--secondary);
