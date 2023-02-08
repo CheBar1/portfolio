@@ -1,26 +1,35 @@
 import React from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Project({ title, description, deployedLink, githubLink, image }) {
   return (
-    <Container className="mt-3">
-      <Row>
-        <Col>
-          <Card className="shadow-lg" style={{ width:"18rem" }}>
-            <Card.Header className="p-3">
-              <h4 className="center">{title}</h4>
-            </Card.Header>
-            <Card.Img src={image} />
-            <Card.Body>
-              <Card.Title>Technologies</Card.Title>
-              <Card.Text>{description}</Card.Text>
-              <Button href={githubLink} className="ml-3">Github Link</Button>
-              <Button href={deployedLink}>Deployed Link</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
+    <div className="card">
+      <div className="img-container">
+        <img alt={title} src={image} />
+      </div>
+
+      <div className="content">
+        <p className="card-title">{title}</p>
+        <p class="proj-icons-container">
+          <a href={githubLink}>
+            <img
+              class="project-icon"
+              src="https://img.icons8.com/fluent/48/000000/github.png"
+              alt="GitHub Repo"
+            />
+          </a>
+          <a href={deployedLink}>
+            <img
+              class="project-icon"
+              src="https://img.icons8.com/fluent/48/000000/domain.png"
+              alt="Live Application"
+            />
+          </a>
+        </p>
+        <p class="topics">{description}</p>
+      </div>
+      <h4 className="center">{title}</h4>
+    </div>
   );
 }
 

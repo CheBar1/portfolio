@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePic from "../assets/images/profilePic.png";
+import AboutProfilePic from "../assets/images/aboutProfilePic.png";
 import { Card, Col, Container, Row } from "react-bootstrap";
 
 const About = () => {
@@ -9,7 +9,7 @@ const About = () => {
         <Col>
           <Card>
 
-            <img className="mb-5" src={ProfilePic} alt="Cheryl Barclay" />
+            <img className="mb-5" src={AboutProfilePic} alt="Cheryl Barclay" />
 
                 
              

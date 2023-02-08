@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./Project";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import textEditor from "./../assets/images/textEditor.png";
 import socialNetworkApi from "./../assets/images/socialNetworkApi.png";
@@ -60,9 +61,14 @@ const projects = [
 
 function Portfolio() {
   return (
-    <section>
-      <h2>Portfolio</h2>
-      <div className="workContainer">
+    <section className="container">
+       
+      <div className="project">
+        <h2 className="top-title">Portfolio</h2>
+        <hr></hr>
+        </div>
+
+        <section id="card-data">
         {projects.map((project) => (
           <Project
             title={project.title}
@@ -72,7 +78,7 @@ function Portfolio() {
             image={project.image}
           />
         ))}
-      </div>
+      </section>
     </section>
   );
 }
