@@ -15,7 +15,7 @@
 * [Installation](#installation) 
 * [Usage](#usage) 
 * [Features](#features)
-* [Heroku Link](#heroku-link)
+* [View Deployment](#view-deployment)
 * [Contact Me](#contact-me)
 * [Credits](#credits) 
 * [Questions](#questions)
@@ -80,8 +80,8 @@ npm start
 * Application has a single Footer component that appears on multiple pages.
 * Application is be deployed to GitHub Pages. 
 
-## Heroku Link
-[Click here for Heroku Link]()
+## View Deployment
+[Click Here](https://chebar1.github.io/portfolio/ )
  
 ## Contact Me
 * GitHub: [CheBar1](https://github.com/CheBar1)
