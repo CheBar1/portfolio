@@ -39,9 +39,14 @@ nav li {
   cursor: pointer;
 }
 
+#container{
+  padding: 30px!;
+}
+
 .container {
   width: 85%;
   max-width: 1200px;
+  padding: 1rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -160,9 +165,11 @@ button {
 
 a {
   border-radius: 5px;
-  color: var(--light);
+  color: white!;
   font-weight: 600;
   padding: 2px 4px;
   margin-left: -2px;
   margin-right: -2px;
 }
+
+ 
