@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Project({ title, description, deployedLink, githubLink, image }) {
+// The Project function accepts the props of title, description, etc passed from the Portfolio Component.
   return (
     <div className="card">
       <div className="img-container">

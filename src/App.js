@@ -1,6 +1,6 @@
 import React, {useState} from "react";
- 
 import 'bootstrap/dist/css/bootstrap.min.css';
+// The components need to be imported from the components folder to the App.js file
 import Header from './components/Header'; 
 import Footer from './components/Footer';
 import About from "./components/About";

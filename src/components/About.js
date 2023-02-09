@@ -1,12 +1,17 @@
 import React from "react";
 import AboutProfilePic from "../assets/images/aboutProfilePic.png";
- 
+
+// React components are isolated parts of an application that help organize and isolate different parts of the program into smaller chunks
+// We can pass data to these components and even render other components inside other components.
 
 const About = () => {
+  // The return statement contains something called "JSX"
+  // JSX is a syntax extension to Javascript that allows us to write HTML inside Javascript
+  // Expressions in JSX should be placed in curly braces {}
   return (
     <section className="container">
       <h2 class="top-title">Hi! I'm Cheryl - your next web developer!</h2>
-      <br></br>
+      <hr></hr>
       <div>
         <img
           class="mb-5"
@@ -23,7 +28,7 @@ const About = () => {
         </p>
       
         <p>
-        I have a creative mind and am always up for new challenges..
+        I have a creative mind and am always up for new challenges.
         </p>
       </div>
     </section>
