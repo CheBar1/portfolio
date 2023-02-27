@@ -8,6 +8,7 @@ import techBlog from "./../assets/images/techBlog.png";
 import employeeTracker from "./../assets/images/employeeTracker.png";
 import teamProfileGenerator from "./../assets/images/teamProfileGenerator.png";
 import workDayScheduler from "./../assets/images/workDayScheduler.png";
+import musicBook from "./../assets/images/musicBook.png";
 
 const projects = [
   {
@@ -56,6 +57,13 @@ const projects = [
     deployedLink: "https://chebar1.github.io/work-day-scheduler/",
     githubLink: "https://github.com/CheBar1/work-day-scheduler",
     image: workDayScheduler,
+  },
+  {
+    title: "Music Book",
+    description: "MERN Stack, MongoDB, GraphQL,JavaScript, React, Apollo Server Express",
+    deployedLink: "https://dry-wildwood-53100.herokuapp.com/",
+    githubLink: "https://github.com/CheBar1/music-book ",
+    image: musicBook,
   },
 ];
 
